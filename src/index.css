@@ -1,0 +1,73 @@
+@import "tailwindcss";
+/* Typography from Goolge Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@theme {
+
+    /* Color */
+    --color-primary: #2E2A6E;
+    --color-secondary: #9291B0;
+    --color-tertiary: #7B7B7B;
+    --color-hover: #D4D3F0;
+    --color-body: #111111;
+    --color-border: #E5E5E3;
+    --color-background: #F9FAFB;
+    --color-card: #FAFAFA;
+
+    /* Font family */
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'DM Sans', sans-serif;
+
+    /* Font size */
+    --text-h1: 4rem;      /* 64px */
+    --text-h2: 3rem;      /* 48px */
+    --text-h3: 2.25rem;   /* 36px */
+    --text-h4: 1.75rem;   /* 28px */
+    --text-h5: 1.375rem;  /* 22px */
+    --text-h6: 1.125rem;  /* 18px */
+    --text-p: 1rem;       /* 16px */
+    --text-button: 1rem;  /* 16px */
+    --text-caption: 0.75rem; /* 12px */
+
+    /* Line height */
+    --leading-h1: 3.625rem;  /* 58px */
+    --leading-h2: 3.625rem;  /* 58px */
+    --leading-h3: 2.75rem;   /* 44px */
+    --leading-h4: 2.125rem;  /* 34px */
+    --leading-h5: 1.75rem;   /* 28px */
+    --leading-h6: 1.5rem;    /* 24px */
+    --leading-body: 1.625rem; /* 26px */
+    --leading-button: 1rem;   /* 16px */
+    --leading-caption: 1rem;  /* 16px */
+
+}
+
+@layer base {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: var(--font-heading);
+    }
+
+    h1 { font-size: var(--text-h1); line-height: var(--leading-h1); }
+    h2 { font-size: var(--text-h2); line-height: var(--leading-h2); }
+    h3 { font-size: var(--text-h3); line-height: var(--leading-h3); }
+    h4 { font-size: var(--text-h4); line-height: var(--leading-h4); }
+    h5 { font-size: var(--text-h5); line-height: var(--leading-h5); }
+    h6 { font-size: var(--text-h6); line-height: var(--leading-h6); }
+
+    p {
+        font-family: var(--font-body);
+        font-size: var(--text-p);
+        line-height: var(--leading-body);
+    }
+
+    body {
+        font-family: var(--font-body);
+        color: var(--color-body);
+    }
+}

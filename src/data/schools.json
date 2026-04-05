@@ -1,0 +1,422 @@
+[
+    {
+        "id": "bcit",
+        "name": "British Columbia Institute of Technology",
+        "type": "Technical Institute",
+        "location": "Burnaby BC",
+        "description": "BCIT graduates get hired fast. The most hands-on, industry-connected school in BC, with programs built around what employers actually need.",
+        "size": "~50,000 students",
+        "timeline": "1-2 years to job-ready",
+        "cost": "Mid-range tuition",
+        "format": "Hands-on, in-person",
+        "website": "https://www.bcit.ca",
+        "programs": [
+            {
+                "id": "bcit-nmd",
+                "name": "New Media Design & Web Development",
+                "credential": "Diploma",
+                "duration": "18 months",
+                "tags": {
+                "field": ["Tech & Computing", "Art & Design"],
+                "learning": ["Hands-on & Project Work", "Studio & Creative making"],
+                "commitment": ["Full-time"],
+                "timeline": ["As soon as possible"],
+                "concern": ["Getting hired after", "Cost & Affordability"],
+                "location": ["Vancouver/Burnaby", "Can relocate / online"]
+                }
+            },
+            {
+                "id": "bcit-ddd",
+                "name": "Digital Design and Development",
+                "credential": "Diploma",
+                "duration": "2 years",
+                "tags": {
+                    "field": ["Art & Design", "Tech & Computing"],
+                    "learning": ["Hands-on & Project Work", "Studio & Creative making"],
+                    "commitment": ["Full-time"],
+                    "timeline": ["As soon as possible"],
+                    "concern": ["Getting hired after", "Cost & Affordability"],
+                    "location": ["Vancouver/Burnaby", "Can relocate / online"]
+                }
+            }
+        ]
+    },
+    {
+        "id": "langara",
+        "name": "Langara College",
+        "type": "College",
+        "location": "Vancouver BC",
+        "description": "Langara offers one of BC's most respected design and web programs, with strong industry connections and flexible study options for working adults.",
+        "size": "~23,000 students",
+        "timeline": "2 years",
+        "cost": "Most affordable",
+        "format": "In-person & online",
+        "website": "https://www.langara.ca",
+        "programs": [
+            {
+                "id": "langara-wmdd-design",
+                "name": "Web & Mobile App Design & Development (Designer Stream)",
+                "credential": "Post-Degree Diploma",
+                "duration": "2 years",
+                "tags": {
+                "field": ["Art & Design", "Tech & Computing"],
+                "learning": ["Hands-on & Project Work", "Studio & Creative making"],
+                "commitment": ["Full-time", "Part-time evenings", "Weekend only"],
+                "timeline": ["As soon as possible", "Still exploring"],
+                "concern": ["Cost & Affordability", "Getting hired after"],
+                "location": ["Vancouver/Burnaby", "Can relocate / online"]
+                }
+            },
+            {
+                "id": "langara-wmdd-dev",
+                "name": "Web & Mobile App Design & Development (Developer Stream)",
+                "credential": "Post-Degree Diploma",
+                "duration": "2 years",
+                "tags": {
+                "field": ["Tech & Computing"],
+                "learning": ["Hands-on & Project Work", "Deep Theory & Lectures"],
+                "commitment": ["Full-time", "Part-time evenings", "Weekend only"],
+                "timeline": ["As soon as possible", "Still exploring"],
+                "concern": ["Cost & Affordability", "Getting hired after"],
+                "location": ["Vancouver/Burnaby", "Can relocate / online"]
+                }
+            },
+            {
+                "id": "langara-dgmd",
+                "name": "Digital Media & Design (UX/UI)",
+                "credential": "Diploma",
+                "duration": "2 years",
+                "tags": {
+                    "field": ["Art & Design", "Tech & Computing"],
+                    "learning": ["Hands-on & Project Work", "Studio & Creative making"],
+                    "commitment": ["Full-time", "Part-time evenings", "Weekend only"],
+                    "timeline": ["As soon as possible", "Still exploring"],
+                    "concern": ["Cost & Affordability", "Getting hired after"],
+                    "location": ["Vancouver/Burnaby", "Can relocate / online"]
+                }
+            }
+        ]
+    },
+    {
+        "id": "sfu",
+        "name": "Simon Fraser University",
+        "type": "University",
+        "location": "Burnaby / Vancouver / Surrey BC",
+        "description": "SFU's interdisciplinary approach blends art, design, and technology. Ideal for students who want to think critically and work across creative and technical fields.",
+        "size": "~35,000 students",
+        "timeline": "4 years",
+        "cost": "Mid-range tuition",
+        "format": "In-person",
+        "website": "https://www.sfu.ca",
+        "programs": [
+            {
+                "id": "sfu-iat-design",
+                "name": "Interactive Arts & Technology (Design Concentration)",
+                "credential": "Bachelor of Arts",
+                "duration": "4 years",
+                "tags": {
+                "field": ["Art & Design", "Tech & Computing"],
+                "learning": ["Deep Theory & Lectures", "Studio & Creative making"],
+                "commitment": ["Full-time"],
+                "timeline": ["3-4 year degree"],
+                "concern": ["Keeping up academically", "Getting hired after"],
+                "location": ["Vancouver/Burnaby", "Surrey / Richmond / Delta", "Can relocate / online"]
+                }
+            },
+            {
+                "id": "sfu-iat-systems",
+                "name": "Interactive Arts & Technology (Interactive Systems Concentration)",
+                "credential": "Bachelor of Science",
+                "duration": "4 years",
+                "tags": {
+                "field": ["Tech & Computing"],
+                "learning": ["Deep Theory & Lectures", "Hands-on & Project Work"],
+                "commitment": ["Full-time"],
+                "timeline": ["3-4 year degree"],
+                "concern": ["Keeping up academically", "Getting hired after"],
+                "location": ["Vancouver/Burnaby", "Surrey / Richmond / Delta", "Can relocate / online"]
+                }
+            }
+        ]
+    },
+    {
+        "id": "kpu",
+        "name": "Kwantlen Polytechnic University",
+        "type": "Polytechnic University",
+        "location": "Surrey / Richmond / Langley BC",
+        "description": "KPU's Wilson School of Design is known for hands-on, studio-based learning with strong industry partnerships. Great for students who want a design degree with real-world focus.",
+        "size": "~20,000 students",
+        "timeline": "4 years",
+        "cost": "Most affordable",
+        "format": "In-person",
+        "website": "https://www.kpu.ca",
+        "programs": [
+            {
+                "id": "kpu-gdma",
+                "name": "Graphic Design for Marketing",
+                "credential": "Bachelor of Design",
+                "duration": "4 years",
+                "tags": {
+                "field": ["Art & Design"],
+                "learning": ["Studio & Creative making", "Hands-on & Project Work"],
+                "commitment": ["Full-time", "Part-time evenings"],
+                "timeline": ["3-4 year degree"],
+                "concern": ["Cost & Affordability", "Getting hired after"],
+                "location": ["Surrey / Richmond / Delta", "Can relocate / online"]
+                }
+            },
+            {
+                "id": "kpu-product-design",
+                "name": "Product Design",
+                "credential": "Bachelor of Design",
+                "duration": "4 years",
+                "tags": {
+                "field": ["Art & Design", "Tech & Computing"],
+                "learning": ["Hands-on & Project Work", "Studio & Creative making"],
+                "commitment": ["Full-time", "Part-time evenings"],
+                "timeline": ["3-4 year degree"],
+                "concern": ["Cost & Affordability", "Getting hired after"],
+                "location": ["Surrey / Richmond / Delta", "Can relocate / online"]
+                }
+            }
+        ]
+    },
+    {
+        "id": "ubc",
+        "name": "University of British Columbia",
+        "type": "University",
+        "location": "Vancouver BC",
+        "description": "One of Canada's top research universities. UBC offers rigorous programs in computer science and cognitive systems for students who want depth in both theory and application.",
+        "size": "~70,000 students",
+        "timeline": "4 years",
+        "cost": "Mid-range tuition",
+        "format": "In-person",
+        "website": "https://www.ubc.ca",
+        "programs": [
+            {
+                "id": "ubc-cs",
+                "name": "Computer Science",
+                "credential": "Bachelor of Science",
+                "duration": "4 years",
+                "tags": {
+                "field": ["Tech & Computing"],
+                "learning": ["Deep Theory & Lectures", "Hands-on & Project Work"],
+                "commitment": ["Full-time"],
+                "timeline": ["3-4 year degree"],
+                "concern": ["Keeping up academically", "Getting hired after"],
+                "location": ["Vancouver/Burnaby", "Can relocate / online"]
+                }
+            },
+            {
+                "id": "ubc-cogs",
+                "name": "Cognitive Systems (UX/HCI Focus)",
+                "credential": "Bachelor of Science",
+                "duration": "4 years",
+                "tags": {
+                "field": ["Art & Design", "Tech & Computing"],
+                "learning": ["Deep Theory & Lectures", "Studio & Creative making"],
+                "commitment": ["Full-time"],
+                "timeline": ["3-4 year degree"],
+                "concern": ["Keeping up academically", "Getting hired after"],
+                "location": ["Vancouver/Burnaby", "Can relocate / online"]
+                }
+            }
+        ]
+    },
+    {
+        "id": "emily-carr",
+        "name": "Emily Carr University of Art + Design",
+        "type": "Art University",
+        "location": "Vancouver BC",
+        "description": "BC's only university dedicated entirely to art and design. Emily Carr is ideal for students who want a deeply creative, studio-focused education in a collaborative environment.",
+        "size": "~1,800 students",
+        "timeline": "4 years",
+        "cost": "Mid-range tuition",
+        "format": "In-person",
+        "website": "https://www.ecuad.ca",
+        "programs": [
+            {
+                "id": "ecuad-interaction",
+                "name": "Interaction Design",
+                "credential": "Bachelor of Design",
+                "duration": "4 years",
+                "tags": {
+                "field": ["Art & Design"],
+                "learning": ["Studio & Creative making", "Hands-on & Project Work"],
+                "commitment": ["Full-time"],
+                "timeline": ["3-4 year degree"],
+                "concern": ["Getting hired after", "Keeping up academically"],
+                "location": ["Vancouver/Burnaby", "Can relocate / online"]
+                }
+            },
+            {
+                "id": "ecuad-communication",
+                "name": "Communication Design",
+                "credential": "Bachelor of Design",
+                "duration": "4 years",
+                "tags": {
+                "field": ["Art & Design"],
+                "learning": ["Studio & Creative making"],
+                "commitment": ["Full-time"],
+                "timeline": ["3-4 year degree"],
+                "concern": ["Getting hired after"],
+                "location": ["Vancouver/Burnaby", "Can relocate / online"]
+                }
+            }
+        ]
+    },
+    {
+        "id": "douglas",
+        "name": "Douglas College",
+        "type": "College",
+        "location": "New Westminster / Coquitlam BC",
+        "description": "Douglas College offers affordable, career-focused programs with strong transfer pathways to UBC and SFU. A great starting point for students exploring design and technology.",
+        "size": "~25,000 students",
+        "timeline": "2 years + Transfer",
+        "cost": "Most affordable",
+        "format": "In-person & online",
+        "website": "https://www.douglascollege.ca",
+        "programs": [
+            {
+                "id": "douglas-cis",
+                "name": "Computing Information Systems",
+                "credential": "Diploma",
+                "duration": "2 years",
+                "tags": {
+                "field": ["Tech & Computing"],
+                "learning": ["Hands-on & Project Work", "Deep Theory & Lectures"],
+                "commitment": ["Full-time", "Part-time evenings", "Weekend only"],
+                "timeline": ["As soon as possible", "Still exploring"],
+                "concern": ["Cost & Affordability", "Getting hired after"],
+                "location": ["Vancouver/Burnaby", "Can relocate / online"]
+                }
+            },
+            {
+                "id": "douglas-vis-arts",
+                "name": "Visual Arts",
+                "credential": "Diploma",
+                "duration": "2 years",
+                "tags": {
+                "field": ["Art & Design"],
+                "learning": ["Studio & Creative making"],
+                "commitment": ["Full-time", "Part-time evenings", "Weekend only"],
+                "timeline": ["As soon as possible", "Still exploring"],
+                "concern": ["Cost & Affordability"],
+                "location": ["Vancouver/Burnaby", "Can relocate / online"]
+                }
+            }
+        ]
+    },
+    {
+        "id": "vcc",
+        "name": "Vancouver Community College",
+        "type": "College",
+        "location": "Vancouver BC",
+        "description": "VCC offers practical, job-ready training in digital arts and interactive media. Perfect for students who want fast entry into creative tech careers.",
+        "size": "~18,000 students",
+        "timeline": "1-2 years",
+        "cost": "Most affordable",
+        "format": "In-person & online",
+        "website": "https://www.vcc.ca",
+        "programs": [
+            {
+            "id": "vcc-digital-arts",
+            "name": "Digital Arts",
+            "credential": "Diploma",
+            "duration": "2 years",
+            "tags": {
+                "field": ["Art & Design", "Tech & Computing"],
+                "learning": ["Hands-on & Project Work", "Studio & Creative making"],
+                "commitment": ["Full-time", "Part-time evenings", "Weekend only"],
+                "timeline": ["As soon as possible"],
+                "concern": ["Cost & Affordability", "Getting hired after"],
+                "location": ["Vancouver/Burnaby", "Can relocate / online"]
+                }
+            },
+            {
+            "id": "vcc-graphic-design",
+            "name": "Graphic Design",
+            "credential": "Diploma",
+            "duration": "52 weeks",
+            "tags": {
+                "field": ["Art & Design"],
+                "learning": ["Studio & Creative making", "Hands-on & Project Work"],
+                "commitment": ["Full-time", "Part-time evenings", "Weekend only"],
+                "timeline": ["As soon as possible", "Just a certification"],
+                "concern": ["Cost & Affordability", "Getting hired after"],
+                "location": ["Vancouver/Burnaby", "Can relocate / online"]
+                }
+            }
+        ]
+    },
+    {
+        "id": "capilanou",
+        "name": "Capilano University",
+        "type": "University",
+        "location": "North Vancouver BC",
+        "description": "CapU's design programs emphasize creativity and practical skills. Strong portfolio development and industry connections in North Vancouver.",
+        "size": "~7,500 students",
+        "timeline": "2-4 years",
+        "cost": "Mid-range tuition",
+        "format": "In-person",
+        "website": "https://www.capilanou.ca",
+        "programs": [
+            {
+            "id": "capu-visual-comm",
+            "name": "Visual Communications",
+            "credential": "Diploma",
+            "duration": "2 years",
+            "tags": {
+                "field": ["Art & Design"],
+                "learning": ["Studio & Creative making", "Hands-on & Project Work"],
+                "commitment": ["Full-time", "Part-time evenings"],
+                "timeline": ["As soon as possible", "Still exploring"],
+                "concern": ["Cost & Affordability", "Getting hired after"],
+                "location": ["North Shore", "Can relocate / online"]
+                }
+            },
+            {
+            "id": "capu-id-design",
+            "name": "Interaction Design",
+            "credential": "Bachelor of Design",
+            "duration": "4 years",
+            "tags": {
+                "field": ["Art & Design", "Tech & Computing"],
+                "learning": ["Studio & Creative making", "Hands-on & Project Work"],
+                "commitment": ["Full-time", "Part-time evenings"],
+                "timeline": ["3-4 year degree"],
+                "concern": ["Getting hired after", "Keeping up academically"],
+                "location": ["North Shore", "Can relocate / online"]
+                }
+            }
+        ]
+    },
+    {
+        "id": "tru",
+        "name": "Thompson Rivers University",
+        "type": "University",
+        "location": "Kamloops BC",
+        "description": "TRU offers practical design programs with small class sizes and strong industry partnerships. Good option for students outside Vancouver.",
+        "size": "~25,000 students",
+        "timeline": "2-4 years",
+        "cost": "Most affordable",
+        "format": "Online & in-person",
+        "website": "https://www.tru.ca",
+        "programs": [
+            {
+            "id": "tru-visual-art",
+            "name": "Visual Art",
+            "credential": "Diploma",
+            "duration": "2 years",
+            "tags": {
+                "field": ["Art & Design"],
+                "learning": ["Studio & Creative making"],
+                "commitment": ["Full-time", "Fully online / self-paced", "Weekend only"],
+                "timeline": ["As soon as possible", "Still exploring"],
+                "concern": ["Cost & Affordability", "Balancing life & school"],
+                "location": ["Can relocate / online"]
+                }
+            }
+        ]
+    }
+]
