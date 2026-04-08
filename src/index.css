@@ -66,8 +66,15 @@
         line-height: var(--leading-body);
     }
 
-    body {
+    html, body {
         font-family: var(--font-body);
         color: var(--color-body);
+        max-width: 100%;
+        overflow-x: hidden;
     }
 }
+
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }

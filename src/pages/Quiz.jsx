@@ -31,8 +31,8 @@ function Quiz() {
 
     return (
         <FadeUp>
-            <section className="py-16">
-                <div className="max-w-186 mx-auto flex flex-col gap-12">
+            <section className="py-8 md:py-16 px-6 md:px-0">
+                <div className="max-w-186 mx-auto flex flex-col gap-8 md:gap-12">
                     <div>
                         <div className="flex justify-between items-center py-2">
                             <p className="text-tertiary text-h5 leading-h5 font-medium">Question {currentQuestion + 1} of {quiz.length}</p>
@@ -48,12 +48,17 @@ function Quiz() {
 
                     <h3>{question.question}</h3>
 
-                    <div className="grid grid-cols-2 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                         {question.options.map((option) => (
                             <div
                                 key={option.id}
                                 onClick={() => handleSelect(option.label)}
-                                className={`py-13 px-10 rounded-lg border cursor-pointer
+                                onKeyDown={(e) => {
+                                    if (e.key === 'Enter' || e.key === ' ') handleSelect(option.label);
+                                }}
+                                tabIndex={0}
+                                role="button"
+                                className={`py-8 md:py-13 px-6 md:px-10 rounded-lg border cursor-pointer
                                 ${answers[question.key] === option.label
                                     ? "border-primary bg-hover"
                                     : "border-border bg-card"
@@ -61,7 +66,7 @@ function Quiz() {
                             >
                                 <div className="flex flex-col gap-2">
                                     <h5 className="font-body font-medium">{option.id}. {option.label}</h5>
-                                    <p className="">{option.description}</p>
+                                    <p>{option.description}</p>
                                 </div>
                             </div>
                         ))}
