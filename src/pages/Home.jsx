@@ -17,8 +17,8 @@ import capilano from '../assets/schools/capilanou-logo.png';
 import tru from '../assets/schools/tru-logo.png';
 import vcc from '../assets/schools/vcc-logo.png';
 
-import testimonial1 from '../assets/testimonial-1.svg';
-import testimonial2 from '../assets/testimonial-2.svg';
+import testimonial1 from '../assets/testimonial-1.png';
+import testimonial2 from '../assets/testimonial-2.png';
 
 function Home() {
 
