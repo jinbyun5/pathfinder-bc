@@ -34,11 +34,11 @@ function Home() {
                     >
                     <div className="h-full px-6 md:px-20 flex items-center">
                         <div className="flex flex-col items-start gap-6 w-full max-w-147">
-                            <h1 className="flex flex-col gap-4 text-h2 md:text-h1">
+                            <h1 className="flex flex-col gap-4 text-h3 leading-h3 md:text-h1 md:leading-h1">
                                 <span>Not sure where to go back to school</span>
                                 <span className="text-primary">Let's figure it out.</span>
                             </h1>
-                            <h5>
+                            <h5 className="text-h6 leading-h6 md:text-h5 md:leading-5">
                                 Answer a few questions about your goals and schedule. We'll match you with the BC program that actually makes sense for your life right now.
                             </h5>
                             <Button size="md" onClick={() => navigate('/quiz')}>Take the quiz →</Button>
