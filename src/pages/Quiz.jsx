@@ -35,8 +35,8 @@ function Quiz() {
                 <div className="max-w-186 mx-auto flex flex-col gap-8 md:gap-12">
                     <div>
                         <div className="flex justify-between items-center py-2">
-                            <p className="text-tertiary text-h5 leading-h5 font-medium">Question {currentQuestion + 1} of {quiz.length}</p>
-                            <p className="text-tertiary text-h5 leading-h5 font-medium">{progress}% Complete</p>
+                            <p className="text-tertiary text-h6 md:text-h5 leading-h5 font-medium">Question {currentQuestion + 1} of {quiz.length}</p>
+                            <p className="text-tertiary text-h6 md:text-h5 leading-h5 font-medium">{progress}% Complete</p>
                         </div>
                         <div className="w-full h-2 bg-hover">
                             <div
@@ -46,7 +46,7 @@ function Quiz() {
                         </div>
                     </div>
 
-                    <h3>{question.question}</h3>
+                    <h3 className="text-h4 md:text-h3">{question.question}</h3>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                         {question.options.map((option) => (
@@ -65,8 +65,8 @@ function Quiz() {
                                 }`}
                             >
                                 <div className="flex flex-col gap-2">
-                                    <h5 className="font-body font-medium">{option.id}. {option.label}</h5>
-                                    <p>{option.description}</p>
+                                    <h5 className="font-body font-medium text-h6 md:text-h5">{option.id}. {option.label}</h5>
+                                    <p className="text-sm md:text-base">{option.description}</p>
                                 </div>
                             </div>
                         ))}

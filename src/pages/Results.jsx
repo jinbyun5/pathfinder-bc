@@ -38,7 +38,7 @@ function Results() {
                             <div className="bg-primary rounded-t-lg px-6 py-8 md:py-11">
                                 <div className="flex flex-col md:flex-row items-start md:items-center justify-start gap-8 md:gap-16">
                                     <div className="flex flex-col gap-5 items-center">
-                                        <p className="text-white text-h1 font-heading">{topMatch.score}%</p>
+                                        <p className="text-white text-h1 font-heading pt-2 md:pt-0">{topMatch.score}%</p>
                                         <p className="text-secondary text-h6 leading-h6">Match Score</p>
                                     </div>
                                     <div className="flex flex-col gap-2">
