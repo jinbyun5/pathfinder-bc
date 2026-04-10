@@ -28,11 +28,13 @@ function Home() {
         <>
             <FadeUp>
                 {/* Hero Section */}
-                <section
-                    className="relative w-full min-h-125 md:h-202.5 bg-cover bg-center py-20"
-                    style={{ backgroundImage: `url(${heroImage})` }}
-                    >
-                    <div className="h-full px-6 md:px-20 flex items-center">
+                <section className="relative w-full min-h-125 md:h-202.5 py-20">
+                    <img 
+                        src={heroImage} 
+                        alt="Two students sitting at a desk discussing their school options" 
+                        className="absolute inset-0 w-full h-full object-cover"
+                    />
+                    <div className="relative h-full px-6 md:px-20 flex items-center">
                         <div className="flex flex-col items-start gap-6 w-full max-w-147">
                             <h1 className="flex flex-col gap-1  md:gap-4 text-h3 leading-h3 md:text-h1 md:leading-h1">
                                 <span>Not sure where to go back to school</span>
